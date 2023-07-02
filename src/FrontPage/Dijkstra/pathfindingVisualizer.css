@@ -1,0 +1,109 @@
+.grid {
+  margin: 30px 0 0;
+}
+
+/* BUTTON */
+.custom-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.1s;
+  margin: 10px 0 0;
+}
+
+.custom-button:hover {
+  background-color: #455ca0;
+}
+
+.custom-button:focus {
+  outline: none;
+}
+
+/* ANIMATION SPEED INPUT */
+.custom-slider-container {
+  margin-top: 20px;
+}
+
+.custom-slider {
+  width: 100%;
+  background-color: #80f690;
+}
+
+.slider-container {
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.slider-label {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  display: none;
+}
+
+.slider-container:hover .slider-label {
+  display: block;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+body {
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+.containerdj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  /* height: 50px; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.green-block,
+.red-block,
+.black-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.green-block {
+  background-color: green;
+}
+
+.red-block {
+  background-color: red;
+}
+
+.black-box {
+  background-color: black;
+}
+
+.label {
+  font-size: 18px;
+  color: black;
+}
