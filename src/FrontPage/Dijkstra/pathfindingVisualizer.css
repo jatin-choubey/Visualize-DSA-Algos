@@ -24,14 +24,6 @@
 }
 
 /* ANIMATION SPEED INPUT */
-.custom-slider-container {
-  margin-top: 20px;
-}
-
-.custom-slider {
-  width: 100%;
-  background-color: #80f690;
-}
 
 .slider-container {
   position: relative;

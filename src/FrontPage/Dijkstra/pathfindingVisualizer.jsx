@@ -101,6 +101,7 @@ export default class pathfindingVisualizer extends Component {
         </Tooltip>
         <div style={{ marginBottom: "20px" }}></div>
         <div className="slider-container">
+          <span style={{ fontFamily: "Montserrat" }}>Speed</span>
           <input
             className="custom-slider"
             type="range"
