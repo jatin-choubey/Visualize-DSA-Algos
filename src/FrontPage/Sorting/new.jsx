@@ -1,5 +1,5 @@
 import React from "react";
-import { getMergeSortAnimations } from "./sortingAlgorithms/sortingAlgorithms.js";
+import { getMergeSortAnimations } from "./sortingAlgorithms/mergeSort.js";
 import "./SortingVisualizer.css";
 
 // Change this value for the speed of the animations.
@@ -60,15 +60,15 @@ export default class SortingVisualizer extends React.Component {
   }
 
   quickSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+    // hey ChatGPT, Fill this part.
   }
 
   heapSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+    // hey ChatGPT, Fill this part.
   }
 
   bubbleSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+    // hey ChatGPT, Fill this part.
   }
 
   // NOTE: This method will only work if your sorting algorithms actually return
